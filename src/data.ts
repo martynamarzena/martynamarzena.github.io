@@ -1,18 +1,15 @@
 export const PERSONAL = {
-  name: "Maya Chen",
+  name: "Martyna Urban",
   title: "Multidisciplinary Graphic Designer",
   tagline: "Crafting visual stories across photography, 3D, design & video.",
-  email: "mayachen.studio@gmail.com",
-  phone: "+1 (415) 829-3047",
-  location: "San Francisco, CA",
-  website: "mayachen.design",
-  linkedin: "linkedin.com/in/mayachen",
-  dob: "March 14, 1995",
-  nationality: "American",
+  email: "martyna.maria.urban@gmail.com",
+  location: "Bydgoszcz, kujawsko pomorskie",
+  dob: "2001",
   languages: [
-    { lang: "English", level: "Native" },
-    { lang: "Mandarin", level: "Native" },
-    { lang: "French", level: "Conversational" },
+    { lang: "Polski", level: "ojczysty" },
+    { lang: "Angielski", level: "B2 - zaawansowany" },
+    { lang: "Koreański", level: "A2 - początkujący" },
+    { lang: "Niemiecki", level: "A2 - początkujący" },
   ],
 };
 
