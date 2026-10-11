@@ -134,12 +134,3 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-App.tsx
-Awards.tsx
-cn.ts
-data.ts
-Education.tsx
-ExperienceSection.tsx
-Footer.tsx
-Header.tsx
-index.css
