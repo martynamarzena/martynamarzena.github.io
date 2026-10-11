@@ -119,7 +119,7 @@ export function Sidebar() {
           href={`tel:${PERSONAL.phone}`}
           delay={0.3}
         />
-        <ContactRow icon={MapPin} label="Location" value={PERSONAL.location} delay={0.35} />
+        <ContactRow icon={MapPin} label="Lokalizacja" value={PERSONAL.location} delay={0.35} />
         <ContactRow
           icon={Globe}
           label="Website"

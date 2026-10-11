@@ -1,0 +1,139 @@
+.skills {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  padding: var(--spacing-xl) var(--spacing-lg);
+}
+
+.skills-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.skills-header h2 {
+  color: var(--color-white);
+}
+
+.skills-header p {
+  color: var(--color-gray-light);
+  font-size: 1.2rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.skill-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(215, 255, 63, 0.2);
+  padding: 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: var(--transition);
+  backdrop-filter: blur(10px);
+}
+
+.skill-card:hover {
+  border-color: var(--color-accent-lime);
+  background-color: rgba(215, 255, 63, 0.05);
+  transform: translateY(-4px);
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.skill-info h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--color-accent-lime);
+}
+
+.skill-level {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.skill-bars {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.level-bar {
+  width: 8px;
+  height: 24px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  transition: var(--transition);
+}
+
+.level-bar.active {
+  background-color: var(--color-accent-lime);
+}
+
+.level-text {
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--color-accent-lime);
+  font-size: 0.9rem;
+}
+
+.skill-details {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(215, 255, 63, 0.2);
+  animation: slideInDown 0.3s ease-out;
+}
+
+.skill-details p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--color-gray-light);
+  margin-bottom: 1rem;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  display: inline-block;
+  background-color: var(--color-accent-lime);
+  color: var(--color-dark);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+@keyframes slideInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .skills {
+    padding: var(--spacing-lg) var(--spacing-md);
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-card {
+    padding: 1.5rem;
+  }
+}

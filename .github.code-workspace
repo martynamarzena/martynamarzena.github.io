@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../STRONA/.github"
+		},
+		{
+			"path": "../STRONA/dist"
+		},
+		{
+			"path": "../STRONA/node_modules"
+		},
+		{
+			"path": "../STRONA/public"
+		},
+		{
+			"path": "../STRONA/src"
+		}
+	]
+}

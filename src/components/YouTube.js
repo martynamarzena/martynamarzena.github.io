@@ -1,0 +1,13 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { useState } from 'react';
+import { youtubeData } from '../data/youtube';
+import './YouTube.css';
+export default function YouTube() {
+    const [selectedVideo, setSelectedVideo] = useState(null);
+    const [selectedCategory, setSelectedCategory] = useState(null);
+    const categories = Array.from(new Set(youtubeData.videos.map(v => v.category)));
+    const filteredVideos = selectedCategory
+        ? youtubeData.videos.filter(v => v.category === selectedCategory)
+        : youtubeData.videos;
+    return (_jsxs("div", { className: "youtube container", children: [_jsx("div", { className: "youtube-header", children: _jsxs("div", { className: "youtube-info", children: [_jsx("h2", { children: "My YouTube Channel" }), _jsx("p", { children: youtubeData.description }), _jsx("a", { href: youtubeData.channelUrl, target: "_blank", rel: "noopener noreferrer", className: "btn", children: "Visit Channel" })] }) }), _jsxs("div", { className: "youtube-filters", children: [_jsx("button", { className: `filter-btn ${!selectedCategory ? 'active' : ''}`, onClick: () => setSelectedCategory(null), children: "All Videos" }), categories.map(cat => (_jsx("button", { className: `filter-btn ${selectedCategory === cat ? 'active' : ''}`, onClick: () => setSelectedCategory(cat), children: cat }, cat)))] }), _jsx("div", { className: "videos-grid", children: filteredVideos.map((video, idx) => (_jsxs("div", { className: "video-card", style: { animationDelay: `${idx * 0.1}s` }, children: [_jsxs("div", { className: "video-thumbnail", children: [_jsx("img", { src: video.thumbnail, alt: video.title }), _jsx("div", { className: "play-overlay", children: _jsx("button", { className: "play-btn", onClick: () => setSelectedVideo(video), "aria-label": "Play video", children: "\u25B6" }) })] }), _jsxs("div", { className: "video-info", children: [_jsx("span", { className: "video-category", children: video.category }), _jsx("h3", { children: video.title }), _jsx("p", { children: video.description })] })] }, video.id))) }), selectedVideo && (_jsx("div", { className: "video-modal-overlay", onClick: () => setSelectedVideo(null), children: _jsxs("div", { className: "video-modal", onClick: (e) => e.stopPropagation(), children: [_jsx("button", { className: "modal-close-btn", onClick: () => setSelectedVideo(null), children: "\u00D7" }), _jsx("div", { className: "video-player", children: _jsx("iframe", { width: "100%", height: "100%", src: `https://www.youtube-nocookie.com/embed/${selectedVideo.id}`, title: selectedVideo.title, frameBorder: "0", allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", allowFullScreen: true }) })] }) }))] }));
+}

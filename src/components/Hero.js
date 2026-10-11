@@ -1,0 +1,10 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { ArrowDown } from 'lucide-react';
+import './Hero.css';
+export default function Hero() {
+    const scrollToPortfolio = () => {
+        const portfolio = document.getElementById('portfolio');
+        portfolio?.scrollIntoView({ behavior: 'smooth' });
+    };
+    return (_jsxs("div", { className: "hero container", children: [_jsxs("div", { className: "hero-content", children: [_jsxs("div", { className: "hero-text", children: [_jsxs("h1", { className: "hero-title", children: [_jsx("span", { className: "title-line", children: "Ideas into" }), _jsx("span", { className: "title-line highlight-line", children: _jsx("span", { className: "highlight-word", children: "Visuals" }) })] }), _jsx("p", { className: "hero-subtitle", children: "Graphic Design \u2022 Video Editing \u2022 Photography \u2022 Motion Design \u2022 3D \u2022 Illustration" }), _jsx("p", { className: "hero-description", children: "Creating bold, colorful, and memorable visual experiences through design, motion, and photography." }), _jsxs("div", { className: "hero-buttons", children: [_jsx("button", { className: "btn", onClick: scrollToPortfolio, children: "View My Work" }), _jsx("a", { href: "#contact", className: "btn btn-secondary", children: "Get in Touch" })] })] }), _jsxs("div", { className: "hero-visual", children: [_jsx("div", { className: "visual-block block-1", children: _jsx("span", { className: "visual-label", children: "Design" }) }), _jsx("div", { className: "visual-block block-2", children: _jsx("span", { className: "visual-label", children: "Motion" }) }), _jsx("div", { className: "visual-block block-3", children: _jsx("span", { className: "visual-label", children: "Photo" }) }), _jsx("div", { className: "visual-block block-4", children: _jsx("span", { className: "visual-label", children: "3D" }) })] })] }), _jsx("div", { className: "hero-scroll", children: _jsx("button", { onClick: scrollToPortfolio, className: "scroll-indicator", children: _jsx(ArrowDown, { size: 20 }) }) })] }));
+}

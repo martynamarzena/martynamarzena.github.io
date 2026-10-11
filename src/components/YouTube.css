@@ -1,0 +1,255 @@
+.youtube {
+  background: linear-gradient(135deg, var(--color-dark) 0%, rgba(48, 79, 254, 0.1) 100%);
+  color: var(--color-white);
+  padding: var(--spacing-xl) var(--spacing-lg);
+}
+
+.youtube-header {
+  margin-bottom: 4rem;
+  animation: slideInLeft 0.8s ease-out;
+}
+
+.youtube-info h2 {
+  color: var(--color-white);
+  margin-bottom: 1rem;
+}
+
+.youtube-info p {
+  font-size: 1.2rem;
+  color: var(--color-gray-light);
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+
+.youtube-info .btn {
+  animation: fadeInUp 0.6s ease-out backwards;
+  animation-delay: 0.2s;
+}
+
+.youtube-filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.filter-btn {
+  background-color: rgba(215, 255, 63, 0.1);
+  border: 2px solid rgba(215, 255, 63, 0.3);
+  color: var(--color-white);
+  padding: 0.75rem 1.5rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: var(--transition);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.filter-btn:hover {
+  background-color: var(--color-accent-lime);
+  color: var(--color-dark);
+  border-color: var(--color-accent-lime);
+}
+
+.filter-btn.active {
+  background-color: var(--color-accent-lime);
+  color: var(--color-dark);
+  border-color: var(--color-accent-lime);
+}
+
+.videos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.video-card {
+  cursor: pointer;
+  animation: fadeInUp 0.6s ease-out backwards;
+  border-radius: 8px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(215, 255, 63, 0.2);
+  transition: var(--transition);
+}
+
+.video-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--color-accent-lime);
+  background: rgba(215, 255, 63, 0.1);
+}
+
+.video-thumbnail {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background-color: var(--color-dark);
+}
+
+.video-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition);
+}
+
+.video-card:hover .video-thumbnail img {
+  transform: scale(1.05);
+}
+
+.play-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.video-card:hover .play-overlay {
+  opacity: 1;
+}
+
+.play-btn {
+  width: 60px;
+  height: 60px;
+  background-color: var(--color-accent-lime);
+  color: var(--color-dark);
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.play-btn:hover {
+  transform: scale(1.1);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.video-info {
+  padding: 1.5rem;
+}
+
+.video-category {
+  display: inline-block;
+  background-color: var(--color-accent-lime);
+  color: var(--color-dark);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.video-info h3 {
+  color: var(--color-white);
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.video-info p {
+  font-size: 0.9rem;
+  color: var(--color-gray-light);
+  line-height: 1.5;
+}
+
+/* Video Modal */
+.video-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  padding: 2rem;
+  animation: fadeIn 0.3s ease-out;
+  backdrop-filter: blur(4px);
+}
+
+.video-modal {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  animation: slideInUp 0.4s ease-out;
+}
+
+.video-player {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.video-player iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  background: none;
+  border: none;
+  color: var(--color-white);
+  font-size: 2rem;
+  cursor: pointer;
+  transition: var(--transition);
+  z-index: 2001;
+}
+
+.modal-close-btn:hover {
+  color: var(--color-accent-lime);
+}
+
+@media (max-width: 768px) {
+  .youtube {
+    padding: var(--spacing-lg) var(--spacing-md);
+  }
+
+  .youtube-info p {
+    font-size: 1rem;
+  }
+
+  .videos-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .video-modal-overlay {
+    padding: 1rem;
+  }
+
+  .modal-close-btn {
+    top: -40px;
+    font-size: 1.5rem;
+  }
+}
