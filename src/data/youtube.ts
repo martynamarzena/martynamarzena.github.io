@@ -25,7 +25,7 @@ export const youtubeData: YouTubeChannel = {
     },
     {
       id: 'Clp3zkN115o',
-      title: 'Co warto wiedzieć na temat run w League of Legends?'
+      title: 'Co warto wiedzieć na temat run w League of Legends?',
       description: 'Essential techniques for creating engaging video content in Premiere Pro.',
       thumbnail: 'https://img.youtube.com/vi/Clp3zkN115o/maxresdefault.jpg',
       category: 'Poradnik'
