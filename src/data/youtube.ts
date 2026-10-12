@@ -13,15 +13,15 @@ export interface YouTubeChannel {
 }
 
 export const youtubeData: YouTubeChannel = {
-  channelUrl: 'https://www.youtube.com/@yourchannelname',
-  description: 'Welcome to my creative channel. I share insights into graphic design, video production, photography, and 3D modeling. Join me as I break down my creative process and share tips for aspiring designers and creators.',
+  channelUrl: 'hhttps://www.youtube.com/@AkademiaPrzywolywacza',
+  description: 'Witaj w Akademii Przywoływacza! To projekt poświęcony graczom League of Legends, którzy w szybki i łatwy sposób chcą przyswoić informacje i nauczyć się grać.',
   videos: [
     {
-      id: 'dQw4w9WgXcQ',
-      title: 'Graphic Design Process Breakdown',
-      description: 'Watch as I walk through my complete graphic design workflow from concept to final delivery.',
-      thumbnail: 'https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg',
-      category: 'Design Tutorial'
+      id: '_gRcgVVYUPQ',
+      title: 'MUSISZ znać te momenty w League of Legends!',
+      description: 'Poradnik na temat występujących timerów w grze oraz co warto wiedzieć na ich temat.',
+      thumbnail: 'https://img.youtube.com/vi/_gRcgVVYUPQ/maxresdefault.jpg',
+      category: 'Poradnik'
     },
     {
       id: 'jNQXAC9IVRw',
