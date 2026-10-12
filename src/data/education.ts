@@ -3,7 +3,7 @@ export interface EducationEntry {
   degree: string
   startDate: string
   endDate: string
-  status: 'completed' | 'in-progress'
+  status: 'ukończone' | 'w trakcie'
   description: string
   skills?: string[]
 }
