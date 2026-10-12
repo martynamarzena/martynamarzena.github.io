@@ -19,7 +19,7 @@ export const educationData: EducationEntry[] = [
     skills: ['Projektowanie Gier','Kultura gier i graczy', 'Esport', 'Nowe Media'],
   },
   {
-    institution: 'Design w biznesie spec. grafika komputerowa w reklamie'
+    institution: 'Design w biznesie spec. grafika komputerowa w reklamie',
     degree: 'Uniwersytet WSB Merito w Bydgoszczy',
     startDate: 'Paź 2023',
     endDate: 'Lip 2026',
