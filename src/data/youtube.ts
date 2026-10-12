@@ -14,7 +14,7 @@ export interface YouTubeChannel {
 
 export const youtubeData: YouTubeChannel = {
   channelUrl:' https://www.youtube.com/@AkademiaPrzywolywacza',
-  description: 'Witaj w Akademii Przywoływacza! To projekt współtworzony przeze mnie oraz mojego narzeczonego który skupia się na efektywnej nauce elementów gry oraz lepszego jej zrozumienia'
+  description: 'Witaj w Akademii Przywoływacza! To projekt współtworzony przeze mnie oraz mojego narzeczonego który skupia się na efektywnej nauce elementów gry oraz lepszego jej zrozumienia',
   videos: [
     {
       id: '_gRcgVVYUPQ',
