@@ -13,8 +13,8 @@ export interface YouTubeChannel {
 }
 
 export const youtubeData: YouTubeChannel = {
-  channelUrl: 'hhttps://www.youtube.com/@AkademiaPrzywolywacza',
-  description: 'Witaj w Akademii Przywoływacza! To projekt poświęcony graczom League of Legends, którzy w szybki i łatwy sposób chcą przyswoić informacje i nauczyć się grać.',
+  channelUrl:' https://www.youtube.com/@AkademiaPrzywolywacza',
+  description: 'Witaj w Akademii Przywoływacza! To projekt współtworzony przeze mnie oraz mojego narzeczonego który skupia się na efektywnej nauce elementów gry oraz lepszego jej zrozumienia'
   videos: [
     {
       id: '_gRcgVVYUPQ',
@@ -24,11 +24,11 @@ export const youtubeData: YouTubeChannel = {
       category: 'Poradnik'
     },
     {
-      id: 'jNQXAC9IVRw',
-      title: 'Video Editing Tips & Tricks',
+      id: 'Clp3zkN115o',
+      title: 'Co warto wiedzieć na temat run w League of Legends?'
       description: 'Essential techniques for creating engaging video content in Premiere Pro.',
-      thumbnail: 'https://img.youtube.com/vi/jNQXAC9IVRw/maxresdefault.jpg',
-      category: 'Tutorial'
+      thumbnail: 'https://img.youtube.com/vi/Clp3zkN115o/maxresdefault.jpg',
+      category: 'Poradnik'
     },
     {
       id: '9bZkp7q19f0',
