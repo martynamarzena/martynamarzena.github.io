@@ -1,20 +1,20 @@
 export const youtubeData = {
-    channelUrl: 'https://www.youtube.com/@yourchannelname',
-    description: 'Welcome to my creative channel. I share insights into graphic design, video production, photography, and 3D modeling. Join me as I break down my creative process and share tips for aspiring designers and creators.',
+    channelUrl: ' https://www.youtube.com/@AkademiaPrzywolywacza',
+    description: 'Witaj w Akademii Przywoływacza! To projekt współtworzony przeze mnie oraz mojego narzeczonego który skupia się na efektywnej nauce elementów gry oraz lepszego jej zrozumienia',
     videos: [
         {
-            id: 'dQw4w9WgXcQ',
-            title: 'Graphic Design Process Breakdown',
-            description: 'Watch as I walk through my complete graphic design workflow from concept to final delivery.',
-            thumbnail: 'https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg',
-            category: 'Design Tutorial'
+            id: '_gRcgVVYUPQ',
+            title: 'MUSISZ znać te momenty w League of Legends!',
+            description: 'Poradnik na temat występujących timerów w grze oraz co warto wiedzieć na ich temat.',
+            thumbnail: 'https://img.youtube.com/vi/_gRcgVVYUPQ/maxresdefault.jpg',
+            category: 'Poradnik'
         },
         {
-            id: 'jNQXAC9IVRw',
-            title: 'Video Editing Tips & Tricks',
+            id: 'Clp3zkN115o',
+            title: 'Co warto wiedzieć na temat run w League of Legends?',
             description: 'Essential techniques for creating engaging video content in Premiere Pro.',
-            thumbnail: 'https://img.youtube.com/vi/jNQXAC9IVRw/maxresdefault.jpg',
-            category: 'Tutorial'
+            thumbnail: 'https://img.youtube.com/vi/Clp3zkN115o/maxresdefault.jpg',
+            category: 'Poradnik'
         },
         {
             id: '9bZkp7q19f0',

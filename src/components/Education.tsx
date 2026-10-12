@@ -20,7 +20,7 @@ export default function Education() {
             <div className="education-content">
               <div className="education-period">
                 {edu.startDate} — {edu.endDate}
-                {edu.status === 'in-progress' && <span className="status-badge">In Progress</span>}
+                {edu.status === 'w trakcie' && <span className="status-badge">In Progress</span>}
               </div>
 
               <h3>{edu.institution}</h3>
