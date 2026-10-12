@@ -16,10 +16,10 @@ export default function YouTube() {
     <div className="youtube container">
       <div className="youtube-header">
         <div className="youtube-info">
-          <h2>My YouTube Channel</h2>
+          <h2>Akademia Przywoływacza</h2>
           <p>{youtubeData.description}</p>
           <a href={youtubeData.channelUrl} target="_blank" rel="noopener noreferrer" className="btn">
-            Visit Channel
+            Odwiedź kanał
           </a>
         </div>
       </div>
@@ -29,7 +29,7 @@ export default function YouTube() {
           className={`filter-btn ${!selectedCategory ? 'active' : ''}`}
           onClick={() => setSelectedCategory(null)}
         >
-          All Videos
+          Wszystkie filmiki
         </button>
         {categories.map(cat => (
           <button
