@@ -49,7 +49,7 @@ export default function Skills() {
           </div>
         ))}
       </div>
-      <div className="skills-footer">
+      <div className="skill-footer">
         <p>Oraz wiele wiele więcej, ale chyba nie ma potrzeby zaznaczać znajomości pakietu Office i umiejetności obsługi komputera?</p>
       </div>
     </div>
