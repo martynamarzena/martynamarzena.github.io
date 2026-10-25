@@ -27,17 +27,17 @@ export default function Portfolio() {
 
   const getCategoryLabel = (cat: string) => {
     const labels: Record<string, string> = {
-      'all': 'All Projects',
-      'graphic-design': 'Graphic Design',
-      'branding': 'Branding & Identity',
-      'video-editing': 'Video Editing',
+      'all': 'WSZYSTKIE',
+      'graphic-design': 'Grafika',
+      'branding': 'Branding',
+      'video-editing': 'Wideo',
       'motion-design': 'Motion Design',
       '3d-blender': '3D & Blender',
-      'photography': 'Photography',
-      'photo-retouching': 'Photo Retouching',
-      'illustration': 'Illustration & Digital Art',
+      'photography': 'Fotografia',
+      'photo-retouching': 'Retusz zdjęć',
+      'illustration': 'Ilustracje',
       'social-media': 'Social Media',
-      'youtube-thumbnails': 'YouTube Thumbnails'
+      'youtube-thumbnails': 'Miniaturka YT'
     }
     return labels[cat] || cat
   }
