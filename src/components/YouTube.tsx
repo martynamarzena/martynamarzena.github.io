@@ -89,5 +89,19 @@ export default function YouTube() {
         </div>
       )}
     </div>
+    
   )
+  
 }
+
+<div className="youtube-socials">
+  <a href="https://www.facebook.com/profile.php?id=61586120886170&locale=pl_PL" target="_blank" rel="noopener noreferrer">
+    Facebook
+  </a>
+  <a href="https://www.instagram.com/akademiaprzywolywacza/" target="_blank" rel="noopener noreferrer">
+    Instagram
+  </a>
+  <a href="https://www.tiktok.com/@akademiaprzywolywacza" target="_blank" rel="noopener noreferrer">
+    TikTok
+  </a>
+</div>
