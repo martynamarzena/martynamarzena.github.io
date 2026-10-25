@@ -28,14 +28,14 @@ export default function Navigation({ scrolled }: NavigationProps) {
 
   const navItems = [
     { id: 'home', label: 'Home' },
-    { id: 'about', label: 'About' },
-    { id: 'skills', label: 'Skills' },
+    { id: 'about', label: 'O mnie' },
+    { id: 'skills', label: 'Umiejętności' },
     { id: 'portfolio', label: 'Portfolio' },
-    { id: 'services', label: 'Services' },
+    { id: 'services', label: 'Możliwości' },
     { id: 'youtube', label: 'YouTube' },
-    { id: 'education', label: 'Education' },
+    { id: 'education', label: 'Edukacja' },
     { id: 'social-media', label: 'Social Media' },
-    { id: 'contact', label: 'Contact' },
+    { id: 'contact', label: 'Kontakt' },
   ]
 
   const scrollToSection = (id: string) => {
@@ -51,8 +51,7 @@ export default function Navigation({ scrolled }: NavigationProps) {
       <div className="nav-container">
         <div className="logo">
           <a href="#home" onClick={() => scrollToSection('home')}>
-            <span className="logo-text">MARTYNA</span>
-            <span className="logo-accent">URBAN</span>
+            <span className="logo-accent">MARTYNA URBAN</span>
           </a>
         </div>
 

@@ -12,14 +12,14 @@ export default function Hero() {
       <div className="hero-content">
         <div className="hero-text">
           <h1 className="hero-title">
-            <span className="title-line">Przekuwam pomysły</span>
+            <span className="title-line">Twoje pomysły</span>
             <span className="title-line highlight-line">
-              <span className="highlight-word">w realne projekty</span>
+              <span className="highlight-word">Nasz projekt</span>
             </span>
           </h1>
           
           <p className="hero-subtitle">
-            Grafika komputerowa • Montaż wideo • Fotografia produktowa • Wizualizacje 3D • Marketing • Ilustracje
+            Grafika komputerowa • Montaż wideo • Fotografia produktowa • Wizualizacje 3D • Marketing
           </p>
 
           <p className="hero-description">
