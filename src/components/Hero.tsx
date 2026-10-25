@@ -23,8 +23,12 @@ export default function Hero() {
           </p>
 
           <p className="hero-description">
-            Twój pomysł, moja kreatywność - wspólny cel, świetny efekt. Opowiedz mi o swoim pomyśle, a wspólnie znajdziemy sposób, by nadać mu wyjątkową formę. 
+            Twój pomysł, moja kreatywność - wspólny cel, świetny efekt. 
           </p>
+          <p className="hero-description">
+            Opowiedz mi o swoim pomyśle, a wspólnie znajdziemy sposób, by nadać mu wyjątkową formę. 
+          </p>
+
 
           <div className="hero-buttons">
             <button className="btn" onClick={scrollToPortfolio}>

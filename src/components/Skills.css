@@ -137,3 +137,10 @@
     padding: 1.5rem;
   }
 }
+
+.skill-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
