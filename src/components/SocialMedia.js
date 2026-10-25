@@ -4,10 +4,10 @@ export default function SocialMedia() {
     const socialProjects = [
         {
             brand: 'Brand Name 1',
-            platforms: ['Instagram', 'Facebook'],
-            description: 'Complete social media strategy and visual content creation.',
-            metrics: 'Placeholder for performance data',
-            image: 'https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=400&q=80'
+            platforms: ['Facebook'],
+            description: 'Realizowanie wpisów pod przewodnictwem i na potrzeby kierownika do spraw personalnych.',
+            metrics: 'Od listopada 2024 do czerwca 2025.',
+            image: 'https://scontent-waw2-2.xx.fbcdn.net/v/t39.30808-6/355157528_725793266015143_1118636123756802019_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s800x800&_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=G7y3aAdsmi0Q7kNvwHA7pDZ&_nc_oc=Adrshmj3DI9nJt-wjXjmRQ46pp8s16adR7cOCSLCF-uFcP3JbBJXtglZ26nyxo8xpXweQlFeRK0O3Mb_1DK4XxL6&_nc_zt=23&_nc_ht=scontent-waw2-2.xx&_nc_gid=JWSp_mzWjrhsPKgOmmeyiA&_nc_ss=7b2a8&oh=00_AQNs3WFoZ7jfjMg2EOBRl6K-CYQi5JbqKMa1Zulq7nuHig&oe=6AE45982'
         },
         {
             brand: 'Brand Name 2',

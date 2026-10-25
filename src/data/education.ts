@@ -24,8 +24,8 @@ export const educationData: EducationEntry[] = [
     startDate: 'Paź 2023',
     endDate: 'Lip 2026',
     status: 'ukończone',
-    description: 'Specialized training in video production, editing workflow, color grading, and motion graphics.',
-    skills: ['Grafika komputerowa', 'Fotografia', 'Projektowanie i zarządzanie marką', 'Podstawy rachunkowości i ekonomii'],
+    description: 'Studia licencjackie ukierunkowane na grafikę komputerową, fotografię oraz ekonomię, rachunkowość i przedsiębiorczość',
+    skills: ['Grafika komputerowa', 'Fotografia', 'Projektowanie iSzarządzanie marką', 'Podstawy rachunkowości i ekonomii'],
   },
   {
     institution: 'Humanistyka drugiej generacji',
@@ -34,6 +34,6 @@ export const educationData: EducationEntry[] = [
     endDate: 'Wrz 2023',
     status: 'ukończone',
     description: 'Studia licencjackie skupione na rozwijaniu praktycznych umiejętności z zakresu badania i projektowania gier',
-    skills: ['Projektowanie Gier', 'Programowanie', 'Grafika komputerowa', 'Kreatywne pisanie', 'Zarządzanie projektami'],
+    skills: ['Projektowanie Gier', 'Programowanie', 'Grafika komputerowa', 'Kreatywne pisanie', 'Zarządzanie projektami', 'Marketing gier wideo'],
   }
 ]

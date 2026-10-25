@@ -1,6 +1,6 @@
 export const youtubeData = {
     channelUrl: 'https://www.youtube.com/@AkademiaPrzywolywacza',
-    description: 'Witaj w Akademii Przywoływacza! To projekt poświęcony grze League of Legends, współtworzony przeze mnie oraz mojego narzeczonego, który skupia się na przekazywaniu treści w efektywny, ale też przystępny sposób tak, aby widz po obejrzeniu filmiku dostał dawkę wiedzy, która nie tylko pomoże mu lepiej grać, ale też nie obciąży go na tyle, że dalsza nauka będzie nie przyjemna.',
+    description: 'Witaj w Akademii Przywoływacza! To projekt poświęcony grze League of Legends, tworzony przeze mnie oraz mojego narzeczonego. Skupie się on na przekazywaniu wiedzy w efektywny, ale też przystępny sposób tak, aby widz po obejrzeniu filmiku dostał dawkę informacji, która nie tylko pomoże mu lepiej grać, ale też nie obciąży go na tyle, że dalsza nauka będzie nie przyjemna.',
     videos: [
         {
             id: '_gRcgVVYUPQ',
@@ -17,17 +17,31 @@ export const youtubeData = {
             category: 'Poradnik'
         },
         {
-            id: 'AC_CUKM_H8c&t=353s',
+            id: 'AC_CUKM_H8c',
             title: 'Czego NIE uczyć się z Worldsów? z @bezum | League of Legends',
             description: 'Materiał zrealizowany we współpracy z innym youtuberem na temat esportu.',
-            thumbnail: 'https://img.youtube.com/vi/AC_CUKM_H8c&t=353s/maxresdefault.jpg',
+            thumbnail: 'https://img.youtube.com/vi/AC_CUKM_H8c/maxresdefault.jpg',
             category: 'Poradnik'
         },
         {
-            id: 'l93qNxV7XjQ',
-            title: 'Czym różni się słaby support od dobrego? #leagueoflegends',
+            id: 'LB54HO6UaD0',
+            title: 'Nowy bohater! #leagueoflegends',
+            description: 'Filmik realizowany w godzinę na potrzeby dowiezienia kontentu w jak najkrótszym czasie.',
+            thumbnail: 'https://img.youtube.com/vi/LB54HO6UaD0/maxresdefault.jpg',
+            category: 'Short'
+        },
+        {
+            id: 'R7ePRyVQNaU',
+            title: 'JGL DIFF /ff15 #leagueoflegends #ligalegend #lolpolska',
+            description: 'Short w formie mema mający na celu zwiększenie zasięgów kanału.',
+            thumbnail: 'https://img.youtube.com/vi/R7ePRyVQNaU/maxresdefault.jpg',
+            category: 'Short'
+        },
+        {
+            id: '5ERQemcIyvw',
+            title: 'PINGUJ GDY WIDZISZ OKAZJĘ! #leagueoflegends',
             description: 'Wycinek materiału w formie shorta.',
-            thumbnail: 'https://img.youtube.com/vi/l93qNxV7XjQ/maxresdefault.jpg',
+            thumbnail: 'https://img.youtube.com/vi/5ERQemcIyvw/maxresdefault.jpg',
             category: 'Short'
         }
     ]
