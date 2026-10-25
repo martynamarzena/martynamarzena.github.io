@@ -16,9 +16,9 @@ export default function Footer() {
           <h4>Quick Links</h4>
           <ul>
             <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#services">Services</a></li>
+            <li><a href="#experience">Doświadczenie</a></li>
             <li><a href="#youtube">YouTube</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Kontakt</a></li>
           </ul>
         </div>
 
@@ -38,7 +38,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; {currentYear} Martyna Urban. All rights reserved.</p>
+        <p>&copy; {currentYear} Martyna Urban. Wszystkie prawa zastrzeżone.</p>
       </div>
     </footer>
   )

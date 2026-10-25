@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <div className="skills container">
       <div className="skills-header">
-        <h2>Umiejętności oraz Narzędzia</h2>
+        <h2>Umiejętności & Narzędzia</h2>
         <p>Kliknij umiejętność po więcej informacji.</p>
       </div>
 
@@ -50,7 +50,7 @@ export default function Skills() {
         ))}
       </div>
       <div className="skill-footer">
-        <p>Oraz wiele wiele więcej, ale chyba nie ma potrzeby zaznaczać znajomości pakietu Office i umiejetności obsługi komputera?</p>
+        <p>Oraz wiele więcej, ale chyba nie ma potrzeby zaznaczać znajomości pakietu Office i umiejętności obsługi komputera?</p>
       </div>
     </div>
 

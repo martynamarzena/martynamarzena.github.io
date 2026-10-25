@@ -2,11 +2,11 @@ import { useState, useEffect } from 'react'
 import Navigation from './components/Navigation'
 import Hero from './components/Hero'
 import About from './components/About'
+import Education from './components/Education'
 import Skills from './components/Skills'
 import Portfolio from './components/Portfolio'
-import Services from './components/Services'
 import YouTube from './components/YouTube'
-import Education from './components/Education'
+import Experience from './components/Experience'
 import SocialMedia from './components/SocialMedia'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -38,6 +38,10 @@ export default function App() {
           <About />
         </section>
 
+        <section id="education" className="section">
+          <Education />
+        </section>
+
         <section id="skills" className="section">
           <Skills />
         </section>
@@ -46,16 +50,12 @@ export default function App() {
           <Portfolio />
         </section>
 
-        <section id="services" className="section">
-          <Services />
-        </section>
-
         <section id="youtube" className="section">
           <YouTube />
         </section>
 
-        <section id="education" className="section">
-          <Education />
+        <section id="experience" className="experience">
+          <Experience />
         </section>
 
         <section id="social-media" className="section">

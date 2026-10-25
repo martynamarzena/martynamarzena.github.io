@@ -5,7 +5,6 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
-import Services from './components/Services';
 import YouTube from './components/YouTube';
 import Education from './components/Education';
 import SocialMedia from './components/SocialMedia';

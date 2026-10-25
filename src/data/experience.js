@@ -1,0 +1,29 @@
+export const educationData = [
+    {
+        institution: 'Badanie i Projektowanie gier, studia drugiego stopnia',
+        degree: 'Uniwersytet Kazimierza Wielkiego w Bydgoszczy',
+        startDate: 'Paź 2025',
+        endDate: 'Cze 2027',
+        status: 'w trakcie',
+        description: 'Studia magisterskie poświęcone grom komputerowym i analogowym, ich historii, narracji oraz znaczeniu kulturowym',
+        skills: ['Projektowanie Gier', 'Kultura gier i graczy', 'Esport', 'Nowe Media'],
+    },
+    {
+        institution: 'Design w biznesie spec. grafika komputerowa w reklamie',
+        degree: 'Uniwersytet WSB Merito w Bydgoszczy',
+        startDate: 'Paź 2023',
+        endDate: 'Lip 2026',
+        status: 'ukończone',
+        description: 'Specialized training in video production, editing workflow, color grading, and motion graphics.',
+        skills: ['Grafika komputerowa', 'Fotografia', 'Projektowanie i zarządzanie marką', 'Podstawy rachunkowości i ekonomii'],
+    },
+    {
+        institution: 'Humanistyka drugiej generacji',
+        degree: 'Uniwersytet Kazimierza Wielkiego w Bydgoszczy',
+        startDate: 'Paź 2020',
+        endDate: 'Wrz 2023',
+        status: 'ukończone',
+        description: 'Studia licencjackie skupione na rozwijaniu praktycznych umiejętności z zakresu badania i projektowania gier',
+        skills: ['Projektowanie Gier', 'Programowanie', 'Grafika komputerowa', 'Kreatywne pisanie', 'Zarządzanie projektami'],
+    }
+];
