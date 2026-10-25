@@ -46,7 +46,7 @@ export default function Portfolio() {
     <div className="portfolio container">
       <div className="portfolio-header">
         <h2>Portfolio</h2>
-        <p>A selection of my recent creative projects</p>
+        <p>Wybrane prace z każdego zakresu.</p>
       </div>
 
       <div className="category-filters">
