@@ -12,9 +12,9 @@ export default function Contact() {
             Każdy świetny projekt zaczyna się od pomysłu - może Twój będzie naszym kolejnym wspólnym wyzwaniem?
           </p>
           <p>
-            Niezależnie od tego, czy potrzebujesz grafiki, montażu wideo, brandingu czy projektu 3D, chętnie pomogę Ci przekuć wizję w rzeczywistość. Napisz do mnie i zacznijmy działać!
+            Niezależnie od tego, czy potrzebujesz grafiki, montażu wideo, brandingu czy projektu 3D, chętnie pomogę Ci przekuć wizję w rzeczywistość. 
           </p>
-
+          <p>Napisz do mnie i zacznijmy działać!</p>
           <div className="contact-methods">
             <a href={`mailto:${contactData.email}`} className="contact-method">
               <Mail size={24} />
@@ -44,21 +44,21 @@ export default function Contact() {
           }}>
             <input
               type="text"
-              placeholder="Your Name"
+              placeholder="Twoje imię"
               required
             />
             <input
               type="email"
-              placeholder="Your Email"
+              placeholder="Twój Email"
               required
             />
             <textarea
-              placeholder="Your Message"
+              placeholder="Twoja wiadomość"
               rows={5}
               required
             ></textarea>
             <button type="submit" className="btn">
-              Send Message
+              Wyślij wiadomość
             </button>
           </form>
         </div>

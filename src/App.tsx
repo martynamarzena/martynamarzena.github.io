@@ -38,12 +38,16 @@ export default function App() {
           <About />
         </section>
 
-        <section id="education" className="section">
-          <Education />
+        <section id="experience" className="experience">
+          <Experience />
         </section>
 
         <section id="skills" className="section">
           <Skills />
+        </section>
+
+        <section id="education" className="section">
+          <Education />
         </section>
 
         <section id="portfolio" className="section">
@@ -52,10 +56,6 @@ export default function App() {
 
         <section id="youtube" className="section">
           <YouTube />
-        </section>
-
-        <section id="experience" className="experience">
-          <Experience />
         </section>
 
         <section id="social-media" className="section">

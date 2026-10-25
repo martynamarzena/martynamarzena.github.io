@@ -6,7 +6,6 @@ export default function Experience() {
     <div className="experience container">
       <div className="experience-header">
         <h2>Doświadczenie zawodowe</h2>
-        <p>Academic background and continuous learning</p>
       </div>
 
       <div className="experience-timeline">
