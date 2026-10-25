@@ -8,8 +8,8 @@ export default function Skills() {
   return (
     <div className="skills container">
       <div className="skills-header">
-        <h2>Umiejętności & Narzędzia</h2>
-        <p>Kliknij umiejętność po więcej informacji.</p>
+        <h2>Narzędzia & Umiejętności</h2>
+        <p>Kliknij program po więcej informacji.</p>
       </div>
 
       <div className="skills-grid">
