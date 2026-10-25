@@ -10,28 +10,28 @@ export default function Experience() {
       </div>
 
       <div className="experience-timeline">
-        {experienceData.map((edu, idx) => (
-          <div key={idx} className="experience-item" style={{ animationDelay: `${idx * 0.1}s` }}>
+        {experienceData.map((exp, adx) => (
+          <div key={adx} className="experience-item" style={{ animationDelay: `${adx * 0.1}s` }}>
             <div className="experience-marker">
               <div className="marker-dot"></div>
-              {idx < experienceData.length - 1 && <div className="marker-line"></div>}
+              {adx < experienceData.length - 1 && <div className="marker-line"></div>}
             </div>
 
             <div className="experience-content">
               <div className="experience-period">
-                {edu.startDate} — {edu.endDate}
-                {edu.status === 'w trakcie' && <span className="status-badge">W trakcie</span>}
+                {exp.startDate} — {exp.endDate}
+                {exp.status === 'w trakcie' && <span className="status-badge">W trakcie</span>}
               </div>
 
-              <h3>{edu.institution}</h3>
-              <p className="experience-degree">{edu.degree}</p>
+              <h3>{exp.institution}</h3>
+              <p className="experience-degree">{exp.degree}</p>
 
-              <p className="experience-description">{edu.description}</p>
+              <p className="experience-description">{exp.description}</p>
 
-              {edu.skills && edu.skills.length > 0 && (
+              {exp.skills && exp.skills.length > 0 && (
                 <div className="experience-skills">
-                  {edu.skills.map((skill, i) => (
-                    <span key={i} className="skill-badge">{skill}</span>
+                  {exp.skills.map((skil, a) => (
+                    <span key={a} className="skill-badge">{skil}</span>
                   ))}
                 </div>
               )}
