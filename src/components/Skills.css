@@ -127,6 +127,7 @@
 @media (max-width: 768px) {
   .skills {
     padding: var(--spacing-lg) var(--spacing-md);
+    color: #222222;
   }
 
   .skills-grid {
@@ -137,6 +138,7 @@
     padding: 1.5rem;
   }
 }
+
 
 .skill-footer {
   text-align: center;
