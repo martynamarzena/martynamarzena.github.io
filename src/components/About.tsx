@@ -16,17 +16,21 @@ export default function About() {
           </p>
 
           <p>
-            Dodatkowo jestem aktywnym Content Creatorem na platformie YouTube, gdzie zajmuję się montażem filmów, opracowywaniem miniaturek oraz strategi marketingowych, Więcej poniżej...
+            Dodatkowo jestem aktywnym Content Creatorem na platformie YouTube, gdzie zajmuję się montażem filmów, opracowywaniem miniaturek oraz strategii marketingowych. Więcej poniżej...
+          </p>
+
+          <p>
+            Opisałabym siebie jako typ zadaniowca. Osobę, która podejmie wszelkich starań aby ukończyć powierzone zadanie w sposób zadowalający i znaleźć rozwiązania na każdy problem.
           </p>
 
           <div className="about-highlights">
             <div className="highlight-box">
               <span className="highlight-number">6+</span>
-              <span className="highlight-label">Wymasterowanych programów</span>
+              <span className="highlight-label">Wymasterowanych Programów</span>
             </div>
             <div className="highlight-box">
               <span className="highlight-number">10+</span>
-              <span className="highlight-label">Ukończonych projektów</span>
+              <span className="highlight-label">Ukończonych Projektów</span>
             </div>
             <div className="highlight-box">
               <span className="highlight-number">4</span>

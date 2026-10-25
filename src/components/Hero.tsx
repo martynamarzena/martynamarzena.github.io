@@ -12,26 +12,26 @@ export default function Hero() {
       <div className="hero-content">
         <div className="hero-text">
           <h1 className="hero-title">
-            <span className="title-line">Ideas into</span>
+            <span className="title-line">Przekuwam pomysły</span>
             <span className="title-line highlight-line">
-              <span className="highlight-word">Visuals</span>
+              <span className="highlight-word">w realne projekty</span>
             </span>
           </h1>
           
           <p className="hero-subtitle">
-            Graphic Design • Video Editing • Photography • Motion Design • 3D • Illustration
+            Grafika komputerowa • Montaż wideo • Fotografia produktowa • Wizualizacje 3D • Marketing • Ilustracje
           </p>
 
           <p className="hero-description">
-            Creating bold, colorful, and memorable visual experiences through design, motion, and photography.
+            Twój pomysł, moja kreatywność - wspólny cel, świetny efekt. Opowiedz mi o swoim pomyśle, a wspólnie znajdziemy sposób, by nadać mu wyjątkową formę. 
           </p>
 
           <div className="hero-buttons">
             <button className="btn" onClick={scrollToPortfolio}>
-              View My Work
+              Zobacz moje prace
             </button>
             <a href="#contact" className="btn btn-secondary">
-              Get in Touch
+              Skontakuj się
             </a>
           </div>
         </div>
@@ -41,13 +41,13 @@ export default function Hero() {
             <span className="visual-label">Design</span>
           </div>
           <div className="visual-block block-2">
-            <span className="visual-label">Motion</span>
+            <span className="visual-label">Wideo</span>
           </div>
           <div className="visual-block block-3">
-            <span className="visual-label">Photo</span>
+            <span className="visual-label">Fotografia</span>
           </div>
           <div className="visual-block block-4">
-            <span className="visual-label">3D</span>
+            <span className="visual-label">Marketing</span>
           </div>
         </div>
       </div>
