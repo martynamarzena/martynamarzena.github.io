@@ -20,14 +20,14 @@ export default function Navigation({ scrolled }) {
     }, []);
     const navItems = [
         { id: 'home', label: 'Home' },
-        { id: 'about', label: 'About' },
-        { id: 'skills', label: 'Skills' },
+        { id: 'about', label: 'O mnie' },
+        { id: 'education', label: 'Edukacja' },
+        { id: 'skills', label: 'Umiejętności' },
         { id: 'portfolio', label: 'Portfolio' },
-        { id: 'services', label: 'Services' },
         { id: 'youtube', label: 'YouTube' },
-        { id: 'education', label: 'Education' },
+        { id: 'experience', label: 'Doświadczenie' },
         { id: 'social-media', label: 'Social Media' },
-        { id: 'contact', label: 'Contact' },
+        { id: 'contact', label: 'Kontakt' },
     ];
     const scrollToSection = (id) => {
         const section = document.getElementById(id);
@@ -36,5 +36,5 @@ export default function Navigation({ scrolled }) {
             setIsOpen(false);
         }
     };
-    return (_jsx("nav", { className: `navigation ${scrolled ? 'scrolled' : ''}`, children: _jsxs("div", { className: "nav-container", children: [_jsx("div", { className: "logo", children: _jsxs("a", { href: "#home", onClick: () => scrollToSection('home'), children: [_jsx("span", { className: "logo-text", children: "MARTYNA" }), _jsx("span", { className: "logo-accent", children: "URBAN" })] }) }), _jsx("button", { className: "menu-toggle", onClick: () => setIsOpen(!isOpen), "aria-label": "Toggle menu", children: isOpen ? _jsx(X, { size: 24 }) : _jsx(Menu, { size: 24 }) }), _jsx("ul", { className: `nav-links ${isOpen ? 'open' : ''}`, children: navItems.map(item => (_jsx("li", { children: _jsx("button", { className: `nav-link ${activeSection === item.id ? 'active' : ''}`, onClick: () => scrollToSection(item.id), children: item.label }) }, item.id))) })] }) }));
+    return (_jsx("nav", { className: `navigation ${scrolled ? 'scrolled' : ''}`, children: _jsxs("div", { className: "nav-container", children: [_jsx("div", { className: "logo", children: _jsx("a", { href: "#home", onClick: () => scrollToSection('home'), children: _jsx("span", { className: "logo-accent", children: "MARTYNA URBAN" }) }) }), _jsx("button", { className: "menu-toggle", onClick: () => setIsOpen(!isOpen), "aria-label": "Toggle menu", children: isOpen ? _jsx(X, { size: 24 }) : _jsx(Menu, { size: 24 }) }), _jsx("ul", { className: `nav-links ${isOpen ? 'open' : ''}`, children: navItems.map(item => (_jsx("li", { children: _jsx("button", { className: `nav-link ${activeSection === item.id ? 'active' : ''}`, onClick: () => scrollToSection(item.id), children: item.label }) }, item.id))) })] }) }));
 }

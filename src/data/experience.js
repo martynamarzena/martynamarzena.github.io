@@ -1,10 +1,10 @@
-export const educationData = [
+export const experienceData = [
     {
-        institution: 'Badanie i Projektowanie gier, studia drugiego stopnia',
-        degree: 'Uniwersytet Kazimierza Wielkiego w Bydgoszczy',
-        startDate: 'Paź 2025',
-        endDate: 'Cze 2027',
-        status: 'w trakcie',
+        institution: 'Asystent Fotografa',
+        degree: 'Hjort Knudsen Polen sp. z. o. o.',
+        startDate: 'Maj 2024',
+        endDate: 'Lip 2025',
+        status: 'ukończone',
         description: 'Studia magisterskie poświęcone grom komputerowym i analogowym, ich historii, narracji oraz znaczeniu kulturowym',
         skills: ['Projektowanie Gier', 'Kultura gier i graczy', 'Esport', 'Nowe Media'],
     },

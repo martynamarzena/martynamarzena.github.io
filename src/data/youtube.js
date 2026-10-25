@@ -1,6 +1,6 @@
 export const youtubeData = {
     channelUrl: ' https://www.youtube.com/@AkademiaPrzywolywacza',
-    description: 'Witaj w Akademii Przywoływacza! To projekt współtworzony przeze mnie oraz mojego narzeczonego który skupia się na efektywnej nauce elementów gry oraz lepszego jej zrozumienia',
+    description: 'Witaj w Akademii Przywoływacza! To projekt poświęcony grze League of Legends, współtworzony przeze mnie oraz mojego narzeczonego, który skupia się na przekazywaniu treści w efektywny, ale też przystępny sposób tak, aby widz po obejrzeniu filmiku dostał dawkę wiedzy, która nie tylko pomoże mu lepiej grać, ale też nie obciąży go na tyle, że dalsza nauka będzie nie przyjemna.',
     videos: [
         {
             id: '_gRcgVVYUPQ',
@@ -12,37 +12,16 @@ export const youtubeData = {
         {
             id: 'Clp3zkN115o',
             title: 'Co warto wiedzieć na temat run w League of Legends?',
-            description: 'Essential techniques for creating engaging video content in Premiere Pro.',
+            description: 'Wideo omawiające w przystępny sposób dość obszerny temat jakim są runy.',
             thumbnail: 'https://img.youtube.com/vi/Clp3zkN115o/maxresdefault.jpg',
             category: 'Poradnik'
         },
         {
-            id: '9bZkp7q19f0',
-            title: 'Photography Lighting Setup',
-            description: 'Professional lighting techniques for product and portrait photography.',
-            thumbnail: 'https://img.youtube.com/vi/9bZkp7q19f0/maxresdefault.jpg',
-            category: 'Photography'
+            id: 'AC_CUKM_H8c&t=353s',
+            title: 'Czego NIE uczyć się z Worldsów? z @bezum | League of Legends',
+            description: 'Materiał zrealizowany we współpracy z innym youtuberem na temat esportu.',
+            thumbnail: 'https://img.youtube.com/vi/AC_CUKM_H8c&t=353s/maxresdefault.jpg',
+            category: 'Poradnik'
         },
-        {
-            id: 'kffacxfA7g4',
-            title: '3D Modeling in Blender Beginner Guide',
-            description: 'Introduction to 3D modeling and rendering for product visualization.',
-            thumbnail: 'https://img.youtube.com/vi/kffacxfA7g4/maxresdefault.jpg',
-            category: '3D & Blender'
-        },
-        {
-            id: '04sBaCAP0sM',
-            title: 'Motion Graphics Animation',
-            description: 'Creating dynamic animations with After Effects for social media.',
-            thumbnail: 'https://img.youtube.com/vi/04sBaCAP0sM/maxresdefault.jpg',
-            category: 'Motion Design'
-        },
-        {
-            id: 'n_dY4addqZQ',
-            title: 'Brand Identity Design Complete',
-            description: 'Full walkthrough of creating a complete brand identity system.',
-            thumbnail: 'https://img.youtube.com/vi/n_dY4addqZQ/maxresdefault.jpg',
-            category: 'Branding'
-        }
     ]
 };

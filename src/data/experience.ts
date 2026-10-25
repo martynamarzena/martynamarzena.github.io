@@ -14,7 +14,7 @@ export const experienceData: ExperienceEntry[] = [
     degree: 'Hjort Knudsen Polen sp. z. o. o.',
     startDate: 'Maj 2024',
     endDate: 'Lip 2025',
-    status: 'ukończonee',
+    status: 'ukończone',
     description: 'Studia magisterskie poświęcone grom komputerowym i analogowym, ich historii, narracji oraz znaczeniu kulturowym',
     skills: ['Projektowanie Gier','Kultura gier i graczy', 'Esport', 'Nowe Media'],
   },
