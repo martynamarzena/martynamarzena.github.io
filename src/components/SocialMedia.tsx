@@ -12,7 +12,7 @@ export default function SocialMedia() {
     {
       brand: 'Akademia Przywoływacza',
       platforms: ['Instagram', 'TikTok','Facebook', 'YouTube'],
-      description: 'Short-form content creation and feed aesthetic development.',
+      description: 'Marka własna opisana już we wcześniejszych sekcjach.',
       metrics: 'Od stycznia 2026 do teraz',
       image: 'https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-avt-0068c001-no/60b4a74ccb289aa232ca732bfbc4d9c5~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=10399&refresh_token=257da779&x-expires=1793134800&x-signature=PhnFZYCOClk3r1RO%2F%2BtAXfMEoIg%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=no1a'
     },
