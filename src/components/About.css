@@ -87,9 +87,11 @@
 
   .about-highlights {
     grid-template-columns: 1fr;
+    color: #222222;
   }
 
   .about-text p {
     font-size: 1rem;
+    color: #222222;
   }
 }
