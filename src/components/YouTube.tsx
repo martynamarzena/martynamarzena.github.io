@@ -89,14 +89,10 @@ export default function YouTube() {
         </div>
       )}
     </div>
-    
   )
-  
 }
 
 
-<div style={{ display: 'flex', gap: '12px', marginTop: '16px', flexWrap: 'wrap' }}>
-  <a href="https://www.facebook.com/profile.php?id=61586120886170&locale=pl_PL" target="_blank" rel="noreferrer" style={{ color: '#1877F2' }}>Facebook</a>
-  <a href="https://www.instagram.com/akademiaprzywolywacza/" target="_blank" rel="noreferrer" style={{ color: '#E1306C' }}>Instagram</a>
-  <a href="https://www.tiktok.com/@akademiaprzywolywacza" target="_blank" rel="noreferrer" style={{ color: '#111111' }}>TikTok</a>
-</div>
+
+
+
