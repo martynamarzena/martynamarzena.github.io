@@ -29,11 +29,11 @@ export default function Navigation({ scrolled }: NavigationProps) {
   const navItems = [
     { id: 'home', label: 'Home' },
     { id: 'about', label: 'O mnie' },
-    { id: 'education', label: 'Edukacja' },
+    { id: 'experience', label: 'Doświadczenie' },
     { id: 'skills', label: 'Umiejętności' },
+    { id: 'education', label: 'Edukacja' },
     { id: 'portfolio', label: 'Portfolio' },
     { id: 'youtube', label: 'YouTube' },
-    { id: 'experience', label: 'Doświadczenie' },
     { id: 'social-media', label: 'Social Media' },
     { id: 'contact', label: 'Kontakt' },
   ]
