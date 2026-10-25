@@ -12,12 +12,14 @@
 
 .about-text h2 {
   margin-bottom: 2rem;
+  color: #222222;
 }
 
 .about-text p {
   margin-bottom: 1.5rem;
   font-size: 1.1rem;
   line-height: 1.8;
+  color: #222222;
 }
 
 .about-highlights {
