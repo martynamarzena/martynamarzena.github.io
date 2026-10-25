@@ -9,11 +9,11 @@ export default function Footer() {
       <div className="footer-content">
         <div className="footer-section">
           <h3>Martyna Urban</h3>
-          <p>Creative designer, video editor, and visual storyteller.</p>
+          <p>Aspirujący "rzemieślnik" sztuki graficznej.</p>
         </div>
 
         <div className="footer-section">
-          <h4>Quick Links</h4>
+          <h4>Szybkie linki</h4>
           <ul>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#experience">Doświadczenie</a></li>
@@ -23,10 +23,10 @@ export default function Footer() {
         </div>
 
         <div className="footer-section">
-          <h4>Connect</h4>
+          <h4>Napisz do mnie!</h4>
           <ul>
             <li><a href={`mailto:${contactData.email}`}>Email</a></li>
-            <li><a href={contactData.youtube} target="_blank" rel="noopener noreferrer">YouTube</a></li>
+
             {contactData.instagram && (
               <li><a href={contactData.instagram} target="_blank" rel="noopener noreferrer">Instagram</a></li>
             )}

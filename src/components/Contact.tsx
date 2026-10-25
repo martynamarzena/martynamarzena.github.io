@@ -1,4 +1,4 @@
-import { Mail, Youtube, Linkedin, Instagram } from 'lucide-react'
+import { Mail, Linkedin, Instagram } from 'lucide-react'
 import { contactData } from '../data/contact'
 import './Contact.css'
 

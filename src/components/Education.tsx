@@ -5,8 +5,7 @@ export default function Education() {
   return (
     <div className="education container">
       <div className="education-header">
-        <h2>Education</h2>
-        <p>Academic background and continuous learning</p>
+        <h2>Edukacja</h2>
       </div>
 
       <div className="education-timeline">
