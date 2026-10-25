@@ -49,11 +49,11 @@ export default function Portfolio() {
         <p>Wybrane prace z każdego zakresu.</p>
       </div>
 
-      <div className="category-filters">
+      <div className="portfolio-category-filters">
         {categories.map(cat => (
           <button
             key={cat}
-            className={`filter-btn ${selectedCategory === cat ? 'active' : ''}`}
+            className={`portfolio-filter-btn ${selectedCategory === cat ? 'active' : ''}`}
             onClick={() => setSelectedCategory(cat)}
           >
             {getCategoryLabel(cat)}
