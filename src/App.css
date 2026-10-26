@@ -68,7 +68,8 @@ section:nth-child(odd) {
 }
 
 section:nth-child(even) {
-  background-color: var(--color-gray-light);
+  background-color: var(--color-dark);
+  color: var(--color-white);
 }
 
 section:nth-child(4n+2) {
